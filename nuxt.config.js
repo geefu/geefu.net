@@ -13,10 +13,10 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  css: [
-    'bootstrap/dist/css/bootstrap.css',
-    'bootstrap-vue/dist/bootstrap-vue.css'
-  ],
+  // css: [
+  //   'bootstrap/dist/css/bootstrap.css',
+  //   'bootstrap-vue/dist/bootstrap-vue.css'
+  // ],
   /*
   ** Customize the progress-bar color
   */
