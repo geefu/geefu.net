@@ -23,7 +23,7 @@
           icon="cellphone-link"
         >
           <b class="has-text-grey">
-          👩‍💻 Decent technology<br>
+          👩‍💻 Distributed technologies<br>
           ⛓ Blockchains<br>
           🤝 Smart Contracts<br>
           🔐 Cryptography<br>
@@ -45,8 +45,15 @@
     </div>
 
     <div class="columns is-mobile is-center">
+      <div class="column ">
+        <iframe
+          src="https://nft.kodadot.xyz/rmrk/detail/6572370-0E76E3AC15B4C1FA1E-MACROCOSM-SOUND_OF_NATURE-0000000000000001"
+          title="Check this cool NFT on %23KusamaNetwork %23kodadot"
+          style="width:480px;height:840px;border:none;"
+        ></iframe>
+      </div>
 
-      <div class="column is-full">
+      <div class="column ">
         <model-viewer
           model="https://meshhouse.art/backend/upload/interactive/BoomBox.glb"
           modeltitle="BoomBox"
@@ -56,8 +63,8 @@
           <span slot="logo">Model Viewer 1.0.0</span>
         </model-viewer>
       </div>
-
     </div>
+
   </section>
 </template>
 
