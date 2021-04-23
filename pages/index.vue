@@ -23,11 +23,13 @@
           icon="cellphone-link"
         >
           <b class="has-text-grey">
-          👩‍💻 Distributed technologies<br>
+          👩‍💻 Distributed<br>
           ⛓ Blockchains<br>
           🤝 Smart Contracts<br>
           🔐 Cryptography<br>
-          🥽 AR/VR/NFT<br>
+          🥽 AR/VR/webXR<br>
+          🖼 NFT<br>
+          🏞 Metaverses<br>
           </b>
         </card>
       </div>
@@ -37,7 +39,13 @@
           title="Hire Matej for project"
           icon="account"
         >
-          <a href="https://hypersignal.xyz/">
+          🦾 Transhumanist<br>
+          🤞 Keeps promise<br>
+          🙌 Delivers<br>
+          💅 Mind the detail<br>
+          🔎 See under detail<br>
+          🤝 Value add<br>
+          📑 <a href="https://hypersignal.xyz/">
             Matej's track record
           </a>
         </card>
@@ -53,15 +61,12 @@
         ></iframe>
       </div>
 
-      <div class="column ">
-        <model-viewer
-          model="https://meshhouse.art/backend/upload/interactive/BoomBox.glb"
-          modeltitle="BoomBox"
-          author="Khronos Group"
-          authorlink="https://khronos.org"
-        >
-          <span slot="logo">Model Viewer 1.0.0</span>
-        </model-viewer>
+      <div class="column">
+        <iframe
+          src="https://nft.kodadot.xyz/rmrk/detail/6825929-0E76E3AC15B4C1FA1E-GLITCH-LIDAR_MALFUNCTION-0000000000000002"
+          title="Check this cool NFT on #KusamaNetwork #KodaDot"
+          style="width:480px;height:840px;border:none;"
+        ></iframe>
       </div>
     </div>
 
