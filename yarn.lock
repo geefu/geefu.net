@@ -879,13 +879,6 @@
   resolved "https://registry.yarnpkg.com/@lokidb/loki/-/loki-2.1.0.tgz#f707e184016ce57d6dd12013938c33f9c540960e"
   integrity sha512-u2VH/4h4kZww23bak5I/oRai8VqIZCSuqiLbuSHpYXHB9Na5E9KNazh59prgUyvMzfooY7XKiHejbKVxFoAEOQ==
 
-"@meshhouse/model-viewer@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@meshhouse/model-viewer/-/model-viewer-1.0.1.tgz#cb85217e59eae637fe501357604a39d6aba1b5d7"
-  integrity sha512-waHsmT1dBtjc+rcm0c29q7cjW9o70mYvNldGzCqEfLzdFrXm3Jmbkvpnl6WfU6wzYDhwoPexhZMZfdqPAm7eAA==
-  dependencies:
-    three "^0.113.2"
-
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -9156,11 +9149,6 @@ thread-loader@^2.1.3:
     loader-runner "^2.3.1"
     loader-utils "^1.1.0"
     neo-async "^2.6.0"
-
-three@^0.113.2:
-  version "0.113.2"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.113.2.tgz#04791d491fe4359330f9dbe7b767db18bfb35d67"
-  integrity sha512-x3vrKW41/UtbWbWduWKGlfIc043SvHWr3YltehYq+UGb9YglQ2oztNGvl2eut05JtNSmP11Mh3t6Xak5/0e+Fg==
 
 through2@^2.0.0:
   version "2.0.5"

@@ -4,7 +4,7 @@
     <div class="columns">
       <div class="column">
         <card
-          title="Billing information"
+          title="Billing information - Slovakia"
           icon="home"
         >
             Geefu s.r.o.<br>
@@ -33,11 +33,26 @@
           </b>
         </card>
       </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <card
+          title="Billing information - Slovenia"
+          icon="caravan"
+        >
+            GenArt, Matej Nemček s.p.<br>
+            Proletarska cesta 4<br>
+            1000 Ljubljana<br>
+            Slovenia, Europe<br>
+            Company No.: 8976732000<br>
+            VAT: SI83616110<br>
+        </card>
+      </div>
 
       <div class="column">
         <card
           title="Hire Matej for project"
-          icon="account"
+          icon="spa"
         >
           🦾 Transhumanist<br>
           🤞 Keeps promise<br>
@@ -52,30 +67,11 @@
       </div>
     </div>
 
-    <div class="columns is-mobile is-center">
-      <div class="column ">
-        <iframe
-          src="https://nft.kodadot.xyz/rmrk/detail/6572370-0E76E3AC15B4C1FA1E-MACROCOSM-SOUND_OF_NATURE-0000000000000001"
-          title="Check this cool NFT on %23KusamaNetwork %23kodadot"
-          style="width:480px;height:840px;border:none;"
-        ></iframe>
-      </div>
-
-      <div class="column">
-        <iframe
-          src="https://nft.kodadot.xyz/rmrk/detail/6825929-0E76E3AC15B4C1FA1E-GLITCH-LIDAR_MALFUNCTION-0000000000000002"
-          title="Check this cool NFT on #KusamaNetwork #KodaDot"
-          style="width:480px;height:840px;border:none;"
-        ></iframe>
-      </div>
-    </div>
-
   </section>
 </template>
 
 <script>
 import Card from '~/components/Card'
-import '@meshhouse/model-viewer';
 
 export default {
   name: 'HomePage',
