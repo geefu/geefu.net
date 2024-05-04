@@ -55,6 +55,8 @@
           🤞 Keeps promise<br>
           🙌 Delivers<br>
           🤝 Value add<br>
+          🙃 Loves entropy<br>
+          😌 Moves forward<br>
           📑 <a href="https://hypersignal.xyz/">
             Matej's track record
           </a>
