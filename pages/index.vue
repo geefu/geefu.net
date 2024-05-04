@@ -4,39 +4,6 @@
     <div class="columns">
       <div class="column">
         <card
-          title="Billing information - Slovakia"
-          icon="home"
-        >
-            Geefu s.r.o.<br>
-            Klincová 35<br>
-            821 08 Bratislava<br>
-            Slovak Republic, Europe<br>
-            Company No.: 46430342<br>
-            VAT: SK2023376740<br>
-            DIC: 2023376740<br>
-        </card>
-      </div>
-
-      <div class="column">
-        <card
-          title="Scope of work"
-          icon="cellphone-link"
-        >
-          <b class="has-text-grey">
-          👩‍💻 Distributed<br>
-          ⛓ Blockchains<br>
-          🤝 Smart Contracts<br>
-          🔐 Cryptography<br>
-          🥽 AR/VR/webXR<br>
-          🖼 NFT<br>
-          🏞 Metaverses<br>
-          </b>
-        </card>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <card
           title="Billing information - Slovenia"
           icon="caravan"
         >
@@ -48,6 +15,36 @@
             VAT: SI83616110<br>
         </card>
       </div>
+      
+      <div class="column">
+        <card
+          title="Billing information - Slovenia"
+          icon="caravan"
+        >
+            Genesis Art d.o.o.<br>
+            Ljubljanska cesta 4<br>
+            4260 Bled<br>
+            Slovenia, Europe<br>
+            Company No.: 9647287000<br>
+            VAT: SI72862980<br>
+        </card>
+      </div>
+    </div>
+    <div class="columns">
+     <div class="column">
+        <card
+          title="Billing information - Slovakia"
+          icon="home"
+        >
+            Geefu s.r.o.<br>
+            Klincová 35<br>
+            821 08 Bratislava<br>
+            Slovak Republic, Europe<br>
+            Company No.: 46430342<br>
+            VAT: SK2023376740<br>
+            DIC: 2023376740<br>
+        </card>
+      </div> 
 
       <div class="column">
         <card
@@ -57,8 +54,6 @@
           🦾 Transhumanist<br>
           🤞 Keeps promise<br>
           🙌 Delivers<br>
-          💅 Mind the detail<br>
-          🔎 See under detail<br>
           🤝 Value add<br>
           📑 <a href="https://hypersignal.xyz/">
             Matej's track record
