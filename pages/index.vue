@@ -8,8 +8,8 @@
           icon="caravan"
         >
             GenArt, Matej Nemček s.p.<br>
-            Proletarska cesta 4<br>
-            1000 Ljubljana<br>
+            Gorenjska cesta 26<br>
+            4240 Radovljica<br>
             Slovenia, Europe<br>
             Company No.: 8976732000<br>
             VAT: SI83616110<br>
