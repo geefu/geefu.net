@@ -16,9 +16,7 @@
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
 
-# Old path still works for any existing bookmarks/links.
-[[redirects]]
-  from = "/racun"
-  to = "/billing"
-  status = 301
-  force = true
+# The /racun -> /billing redirect is NOT here. Netlify reads the generated
+# dist/_redirects before netlify.toml, and Nitro writes a `/* /404.html 404`
+# catch-all into it that would match /racun first. It lives in nuxt.config.ts
+# as a routeRule instead, so it is emitted above that catch-all.

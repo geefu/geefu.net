@@ -19,7 +19,18 @@ export default defineNuxtConfig({
     }
   },
 
-  // Fully static output for Netlify. `nuxt generate` -> .output/public
+  // Old path still works for any existing bookmarks/links.
+  //
+  // This lives here rather than in netlify.toml on purpose: Netlify evaluates
+  // the generated dist/_redirects *before* netlify.toml, and the netlify-static
+  // preset writes a `/* /404.html 404` catch-all into it — which would swallow
+  // /racun first. A routeRule is emitted into _redirects above that catch-all.
+  routeRules: {
+    '/racun': { redirect: { to: '/billing', statusCode: 301 } }
+  },
+
+  // Fully static output. `nuxt generate` -> .output/public locally, ./dist on
+  // Netlify (see the note in netlify.toml).
   nitro: {
     prerender: {
       routes: ['/', '/billing']
