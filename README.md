@@ -19,11 +19,16 @@ npm run dev        # http://localhost:3000
 ## Build (static)
 
 ```bash
-npm run generate   # output in .output/public
+npm run generate   # output in .output/public (also symlinked as ./dist)
 npm run preview    # preview the static build
 ```
 
-Netlify config lives in `netlify.toml` (`npm run generate` → publish `.output/public`).
+Netlify config lives in `netlify.toml` (`npm run generate` → publish `dist`).
+
+> Nitro chooses its preset from the environment. Locally it uses `static` and
+> writes `.output/public`; on Netlify it detects `NETLIFY` and uses
+> `netlify-static`, which writes `dist`. Netlify publishes `dist` because that
+> path is valid in both places (Nuxt symlinks `dist` → `.output/public` locally).
 
 ## Updating billing details
 

@@ -1,6 +1,10 @@
 [build]
   command = "npm run generate"
-  publish = ".output/public"
+  # Nitro picks its preset from the environment: locally that's `static`
+  # (-> .output/public), but on Netlify the NETLIFY env var selects
+  # `netlify-static`, which writes to ./dist instead. Nuxt symlinks
+  # dist -> .output/public locally, so this path is correct in both places.
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "22"
