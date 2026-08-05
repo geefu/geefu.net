@@ -16,6 +16,13 @@
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
 
+# Belt and braces: cover the legacy path too, in case a crawler hits it before
+# the redirect resolves.
+[[headers]]
+  for = "/racun*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
 # The /racun -> /billing redirect is NOT here. Netlify reads the generated
 # dist/_redirects before netlify.toml, and Nitro writes a `/* /404.html 404`
 # catch-all into it that would match /racun first. It lives in nuxt.config.ts

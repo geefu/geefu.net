@@ -25,8 +25,13 @@ export default defineNuxtConfig({
   // the generated dist/_redirects *before* netlify.toml, and the netlify-static
   // preset writes a `/* /404.html 404` catch-all into it — which would swallow
   // /racun first. A routeRule is emitted into _redirects above that catch-all.
+  // Both spellings: Netlify normalizes /racun -> /racun/ *before* matching
+  // redirects, so a rule for the bare path alone never fires as a real 301 —
+  // it ends up serving /billing's content at /racun/ instead of consolidating
+  // onto one URL.
   routeRules: {
-    '/racun': { redirect: { to: '/billing', statusCode: 301 } }
+    '/racun': { redirect: { to: '/billing', statusCode: 301 } },
+    '/racun/': { redirect: { to: '/billing', statusCode: 301 } }
   },
 
   // Fully static output. `nuxt generate` -> .output/public locally, ./dist on
