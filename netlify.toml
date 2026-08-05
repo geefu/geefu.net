@@ -1,0 +1,20 @@
+[build]
+  command = "npm run generate"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NPM_FLAGS = "--no-audit --no-fund"
+
+# Keep the private billing page out of search engines at the edge too.
+[[headers]]
+  for = "/billing*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# Old path still works for any existing bookmarks/links.
+[[redirects]]
+  from = "/racun"
+  to = "/billing"
+  status = 301
+  force = true

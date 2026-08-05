@@ -1,0 +1,11 @@
+{
+  "v": 1,
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 600000
+  },
+  "salt": "/52oHrhoOman5GyLIsMXPA==",
+  "iv": "Bj7WKCg7tfGy5haJ",
+  "ct": "TrH/IbSmY6764wt2VHdYTUOi1qGHLU/s0z8D/9S4Xkw9BXq82CbK7/LggsSYlMNVFmlGNXK5Lgn4skvzv1WiZRmu2qau8iYtnzwmb9brXuNNUmSlmNAsibL23myPAe98ikafm2qAZpWMDcJz1j9TYQGLZY6mR+SLfoRA+AKQCduXMUhh0fU/VOb3VqMq3V9mPGvS9iQ+FLHy3pvbVChPW3CP7e5x+ZlOoz2tYR2pXcUxV0GRRMrbOOsqdgtr7sOeqRf6c8riIK4zo5bB5LKsdd+xNgoltVBjnnd6nWSd4ZBUoOkWeD9wZLaNDktpPnnpPPY6nRh5g34IauSwEY5UrZN++wvMuURNyiY77HXp9ZkAQfly2yfiAAnmU41YfpR8FMJOrIInIotPrDyXs03BwLozuUHrboNUz4stcAZlFlNZp8ykrhWiF6Oj8wx/j5Mka6Y4ChaVa2BeMB9DwrbDa/DD+UIukKGE5fH06hfpnZABpdfETuFUl8LXJMOlILhm0NdSZuKPI94hPyjKwNkkDuJ3oCXk2XDtAIZIQgKkGEK9cEFGHG0+K7/Qe3lth2OVlevLom1qvxjl61kYewH9rXL+66qLFVSPPNPYUdSR/qv2DHVz0wGqPBvdncajUuOmiaRKdXQmiEBbuqOmT3y4Aejj9M7ckFHihZoF3xzMmEbL3b6DRW/XxLSNTbMlcYkhhaSlbYqBPhFRamxFSAJl+x3nXNXP7flXb65AnkrKJxza6TnmvfHCtte8Bdo/QUiV91LhOojNLr/Yd/zUGg=="
+}

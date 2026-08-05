@@ -65,11 +65,15 @@ typings/
 # next.js build output
 .next
 
-# nuxt.js build output
+# nuxt build output
 .nuxt
-
-# Nuxt generate
+.nitro
+.output
 dist
+
+# plaintext billing source for scripts/encrypt-billing.mjs — NEVER commit this.
+# Only the encrypted public/billing.enc.json is committed.
+billing.json
 
 # vuepress build output
 .vuepress/dist
