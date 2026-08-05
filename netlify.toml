@@ -8,7 +8,10 @@
 
 [build.environment]
   NODE_VERSION = "22"
-  NPM_FLAGS = "--no-audit --no-fund"
+  # --legacy-peer-deps for the same reason as .github/workflows/ci.yml: an
+  # unsatisfiable peer range in @bomb.sh/tab (via nuxt) makes npm's strict
+  # tree-building reject the lockfile.
+  NPM_FLAGS = "--no-audit --no-fund --legacy-peer-deps"
 
 # Keep the private billing page out of search engines at the edge too.
 [[headers]]
